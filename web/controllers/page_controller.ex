@@ -2,6 +2,6 @@ defmodule HelloPhoenix.PageController do
   use HelloPhoenix.Web, :controller
 
   def index(conn, _params) do
-    render conn, "index.html"
+    render conn, "index.html", name: "テスト"
   end
 end
